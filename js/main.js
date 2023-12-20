@@ -14,14 +14,14 @@ function playMusic() {
     var player = document.getElementById("audio");
     play();
     function play(){
-    swal("欢迎浏览啭脚主页\n请问是否开启音乐\n一边浏览一边听呢？", {
+    swal("欢迎浏览啭脚主页\n请问是否观看猴子呢？", {
             buttons: {
-                cancel: "开启",
-                allow: "关闭"
+                cancel: "是",
+                allow: "否"
             }
         }).then(function(value) {
             if (value == "allow") {
-                player.pause()
+                window.open('http://wpa.qq.com/msgrd?v=3&uin=3353695243&site=qq&menu=yes')
             } else {
                 player.play();
             }
