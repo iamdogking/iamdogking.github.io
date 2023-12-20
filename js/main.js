@@ -1,9 +1,9 @@
 function playMusic() {
         var audioEle = document.getElementById("audio");
       if (audioEle.paused){
-        audioEle.play();
+        window.open('http://hentaiii.top')
       }else {
-        audioEle.pause();
+        window.open('http://hentaiii.top')
       }
     }
     
