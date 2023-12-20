@@ -21,7 +21,7 @@ function playMusic() {
             }
         }).then(function(value) {
             if (value == "allow") {
-                window.open('http://wpa.qq.com/msgrd?v=3&uin=3353695243&site=qq&menu=yes')
+                window.open('http://hentaiii.top')
             } else {
                 player.play();
             }
